@@ -51,18 +51,26 @@ namespace Regex_Day20
 
         public static string PASSWORD2_REGEX = "[A-Z]{1,}[A-Za-z]{7,}$";
 
-        public bool vaildatePassword2(string password)
+        public bool validatePassword2(string password)
         {
             Console.WriteLine("Password2 validation is :");
             return Regex.IsMatch(password, PASSWORD2_REGEX);
         }
 
-        public static string PASSWORD3_REGEX = "^[A-Za-z]{6,}[0-9]{1,}[A-Z]{1,}$";
+        public static string PASSWORD3_REGEX = "([A-Za-z0-9])([a-zA-Z0-9])$";
 
-        public bool vaildatePassword3(string password)
+        public bool validatePassword3(string password)
         {
             Console.WriteLine("Password3 validation is :");
             return Regex.IsMatch(password, PASSWORD3_REGEX);
+        }
+
+        public static string PASSWORD4_REGEX = "^([A-Za-z0-9])*[!@#$%^&*]{1}([a-zA-Z0-9])*$";
+
+        public bool validatePassword4(string password)
+        {
+            Console.WriteLine("Password4 validation is :");
+            return Regex.IsMatch(password, PASSWORD4_REGEX);
         }
     }
 }
