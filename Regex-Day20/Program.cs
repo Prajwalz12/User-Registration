@@ -12,6 +12,7 @@ namespace Regex_Day20
 
             Console.WriteLine(patterns.validateFirstName("Prajwal"));
             Console.WriteLine(patterns.validateLastName("Zurunge"));
+            Console.WriteLine(patterns.validateEmail("prajwal.zurunge12@gmail.com"));
 
 
         }

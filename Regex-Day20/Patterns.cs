@@ -25,5 +25,12 @@ namespace Regex_Day20
             return Regex.IsMatch(lastName, REGEX_LAST_NAME);
         }
 
+        public static string EMAIL_REGEX = @"^([a-z]+)(\.[a-z0-9_\+\-]+)?@([a-z]+)\.([a-z]{2,4})(\.[a-z]{2})?$";
+
+        public bool validateEmail(string email)
+        {
+            Console.WriteLine("Email Validation is :");
+            return Regex.IsMatch(email, EMAIL_REGEX);
+        }
     }
 }
