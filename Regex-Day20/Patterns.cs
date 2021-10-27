@@ -40,5 +40,13 @@ namespace Regex_Day20
             Console.WriteLine("Mobile No validation is :");
             return Regex.IsMatch(mobileno, MOBILE_NO_REGEX);
         }
+
+        public static string PASSWORD1_REGEX = "[A-Za-z]{8,}";
+
+        public bool validatePassword1(string password)
+        {
+            Console.WriteLine("Password1 valiadtion is :");
+            return Regex.IsMatch(password, PASSWORD1_REGEX);
+        }
     }
 }

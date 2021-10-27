@@ -14,6 +14,7 @@ namespace Regex_Day20
             Console.WriteLine(patterns.validateLastName("Zurunge"));
             Console.WriteLine(patterns.validateEmail("prajwal.zurunge12@gmail.com"));
             Console.WriteLine(patterns.validateMobileNo("918446255759"));
+            Console.WriteLine(patterns.validatePassword1("prajwalnew"));
 
         }
     }
