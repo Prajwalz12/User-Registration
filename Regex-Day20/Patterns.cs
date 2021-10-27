@@ -48,5 +48,13 @@ namespace Regex_Day20
             Console.WriteLine("Password1 valiadtion is :");
             return Regex.IsMatch(password, PASSWORD1_REGEX);
         }
+
+        public static string PASSWORD2_REGEX = "[A-Z]{1}[A-Za-z]{7,}";
+
+        public bool vaildatePassword2(string password)
+        {
+            Console.WriteLine("Passwod2 validation is :");
+            return Regex.IsMatch(password, PASSWORD2_REGEX);
+        }
     }
 }
