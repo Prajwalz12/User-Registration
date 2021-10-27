@@ -41,7 +41,7 @@ namespace Regex_Day20
             return Regex.IsMatch(mobileno, MOBILE_NO_REGEX);
         }
 
-        public static string PASSWORD1_REGEX = "[A-Za-z]{8,}";
+        public static string PASSWORD1_REGEX = "[A-Za-z]{8,}$";
 
         public bool validatePassword1(string password)
         {
@@ -49,12 +49,20 @@ namespace Regex_Day20
             return Regex.IsMatch(password, PASSWORD1_REGEX);
         }
 
-        public static string PASSWORD2_REGEX = "[A-Z]{1}[A-Za-z]{7,}";
+        public static string PASSWORD2_REGEX = "[A-Z]{1,}[A-Za-z]{7,}$";
 
         public bool vaildatePassword2(string password)
         {
-            Console.WriteLine("Passwod2 validation is :");
+            Console.WriteLine("Password2 validation is :");
             return Regex.IsMatch(password, PASSWORD2_REGEX);
+        }
+
+        public static string PASSWORD3_REGEX = "^[A-Za-z]{6,}[0-9]{1,}[A-Z]{1,}$";
+
+        public bool vaildatePassword3(string password)
+        {
+            Console.WriteLine("Password3 validation is :");
+            return Regex.IsMatch(password, PASSWORD3_REGEX);
         }
     }
 }
