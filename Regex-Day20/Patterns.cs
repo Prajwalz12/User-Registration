@@ -16,5 +16,14 @@ namespace Regex_Day20
             return Regex.IsMatch(fisrtName, REGEX_FIRST_NAME);
             
         }
+
+        public static string REGEX_LAST_NAME = "^[A-Z]{1}[A-Za-z]{2,}$";
+
+        public bool validateLastName(string lastName)
+        {
+            Console.WriteLine("LastName Validation is :");
+            return Regex.IsMatch(lastName, REGEX_LAST_NAME);
+        }
+
     }
 }
