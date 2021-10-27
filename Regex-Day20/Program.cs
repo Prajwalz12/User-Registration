@@ -9,7 +9,11 @@ namespace Regex_Day20
             Console.WriteLine("Welcome to User Registration Program");
 
             Patterns patterns = new Patterns();
+
             Console.WriteLine(patterns.validateFirstName("Prajwal"));
+            Console.WriteLine(patterns.validateLastName("Zurunge"));
+
+
         }
     }
 }
