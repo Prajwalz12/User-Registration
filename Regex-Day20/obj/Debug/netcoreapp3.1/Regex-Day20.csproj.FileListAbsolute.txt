@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\bin\Debug\netcoreapp3.1\Regex-Day20.exe
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\bin\Debug\netcoreapp3.1\Regex-Day20.deps.json
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\bin\Debug\netcoreapp3.1\Regex-Day20.runtimeconfig.json
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\bin\Debug\netcoreapp3.1\Regex-Day20.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\bin\Debug\netcoreapp3.1\Regex-Day20.dll
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\bin\Debug\netcoreapp3.1\Regex-Day20.pdb
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\obj\Debug\netcoreapp3.1\Regex-Day20.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\obj\Debug\netcoreapp3.1\Regex-Day20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\obj\Debug\netcoreapp3.1\Regex-Day20.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\obj\Debug\netcoreapp3.1\Regex-Day20.AssemblyInfo.cs
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\obj\Debug\netcoreapp3.1\Regex-Day20.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\obj\Debug\netcoreapp3.1\Regex-Day20.dll
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\obj\Debug\netcoreapp3.1\Regex-Day20.pdb
+C:\Users\Admin\Desktop\projects\Regex-Day20\Regex-Day20\obj\Debug\netcoreapp3.1\Regex-Day20.genruntimeconfig.cache

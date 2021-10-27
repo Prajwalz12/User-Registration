@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Regex-Day20/1.0.0": {
+        "runtime": {
+          "Regex-Day20.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Regex-Day20/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
