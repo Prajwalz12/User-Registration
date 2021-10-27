@@ -32,5 +32,13 @@ namespace Regex_Day20
             Console.WriteLine("Email Validation is :");
             return Regex.IsMatch(email, EMAIL_REGEX);
         }
+
+        public static string MOBILE_NO_REGEX = "^+[1-9]{2}[0-9]{10}$";
+        
+        public bool validateMobileNo(string mobileno)
+        {
+            Console.WriteLine("Mobile No validation is :");
+            return Regex.IsMatch(mobileno, MOBILE_NO_REGEX);
+        }
     }
 }
